@@ -38,6 +38,10 @@ public class ClientInterface extends JFrame{
                     String s1 = Q0.getText();
                     String s2 = QF.getText();
                     String s3 = t.getText();
+                    if(Integer.parseInt(s1) < 0 || Integer.parseInt(s2) < 0 || Integer.parseInt(s3) < 0 ){
+                        area.setText("Valor de entrada invalido");
+
+                    }
 
                     double taxas = new ClientSocket().taxas(Double.parseDouble(s1), Double.parseDouble(s2), Integer.parseInt(s3));
                     System.out.println(taxas);
