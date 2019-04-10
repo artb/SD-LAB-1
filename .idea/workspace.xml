@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SocketLogica.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SocketLogica.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/socket/server/SocketLogica.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="61" column="61" lean-forward="true" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientInterface.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClientInterface.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/socket/client/ClientInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="61" column="68" lean-forward="true" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
+            <state relative-caret-position="140">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,8 +54,8 @@
       <file leaf-file-name="ClientSocket.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/socket/client/ClientSocket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+            <state relative-caret-position="182">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,8 +110,8 @@
         <option value="$PROJECT_DIR$/src/socket/Moeda.java" />
         <option value="$PROJECT_DIR$/src/socket/client/ClientSocket.java" />
         <option value="$PROJECT_DIR$/src/socket/server/LigarServer.java" />
-        <option value="$PROJECT_DIR$/src/socket/server/SocketLogica.java" />
         <option value="$PROJECT_DIR$/src/socket/client/ClientInterface.java" />
+        <option value="$PROJECT_DIR$/src/socket/server/SocketLogica.java" />
       </list>
     </option>
   </component>
@@ -470,16 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/socket/client/ClientSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/socket/server/LigarServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -490,10 +480,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/socket/server/SocketLogica.java">
+    <entry file="file://$PROJECT_DIR$/src/socket/client/ClientSocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+        <state relative-caret-position="182">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -502,8 +492,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/socket/client/ClientInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="61" column="68" lean-forward="true" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
+        <state relative-caret-position="140">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/socket/server/SocketLogica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="61" column="61" lean-forward="true" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

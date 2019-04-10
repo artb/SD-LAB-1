@@ -63,6 +63,8 @@ public class ClientInterface extends JFrame{
                 final JTextField inputID = new JTextField(5);
                 JLabel newVal = new JLabel("Insira o novo valor da Moeda: ");
                 final JTextField inputNCotacao = new JTextField(5);
+                JButton editarJanelaEditar = new JButton("Editar Moeda");
+                JButton apagar = new JButton("Apagar Moeda");
 
 
 
@@ -74,6 +76,9 @@ public class ClientInterface extends JFrame{
                 panelEdit.add(newVal);
                 panelEdit.add(Box.createRigidArea(new Dimension(0, 20)));
                 panelEdit.add(inputNCotacao);
+                panelEdit.add(Box.createRigidArea(new Dimension(0, 20)));
+                panelEdit.add(editarJanelaEditar);
+                panelEdit.add(apagar);
 
                 // Display the window.
                 frame2.setLocation(500,500);

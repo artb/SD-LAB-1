@@ -52,7 +52,7 @@ public class SocketLogica {
             double cotacao = in.readDouble();
             String nome = in.readUTF();
             if(cotacao <=0){
-                System.out.println("Erro 500 - Invalid Number");
+                System.out.println("Erro 501 - Invalid Number");
                 out.writeUTF("Moeda com valor negativo. Refazer operacao");
             }else {
                 String resultado = nome + " cotado em: R$ " + Double.toString(cotacao);
